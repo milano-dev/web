@@ -58,6 +58,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 20vh;
+  padding: 0 5%;
 }
 
 .Content .text-section {

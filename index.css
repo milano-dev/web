@@ -6,6 +6,9 @@
   --tracking-medium: 0.5rem;
   --tracking-large: 0.8rem;
 
+  --info: rgb(6, 125, 247);
+  --alert: rgb(244, 129, 33);
+
   --dark: #000;
   --blue: #33a9ff;
   --light-gray: #fafafa;
@@ -138,4 +141,40 @@ h2 {
   font-weight: 500;
   font-size: 1rem;
   /* line-height: 1 */
+}
+
+.img-center {
+  width: 110%;
+  margin: 0 auto;
+  margin-right: -15%;
+  margin-left: -5%;
+  display: block;
+}
+
+.note {
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  padding: 16px 24px;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+  border-image: initial;
+  text-align: left;
+}
+
+.note.info {
+  border-color: var(--info);
+  --note-type-color: var(--info);
+}
+.note.alert {
+  border-color: var(--alert);
+  --note-type-color: var(--alert);
+}
+
+.note-type {
+  color: var(--note-type-color);
+  text-transform: uppercase;
 }

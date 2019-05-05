@@ -180,6 +180,8 @@ h2 {
 }
 
 .cta {
+  display: inline-block;
+  margin: 20px 0 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;

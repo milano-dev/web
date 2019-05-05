@@ -104,11 +104,11 @@ body {
   font-size: 16px;
 }
 
-.twitter {
+.social {
   margin-top: 20px;
 }
 
-.twitter a {
+.social a {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   padding: 8px 0 0px;
   display: inline-block;
@@ -116,11 +116,17 @@ body {
   width: 12%;
   font-size: 18px;
 }
-.twitter a:hover {
+.social.twitter a:hover {
   color: #fff;
   background-color: #1890ff;
 }
-.twitter a i {
+
+.social.github a:hover {
+  color: #fff;
+  background-color: #23282e;
+}
+
+.social a i {
   display: inline-block;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition-property: transform, -webkit-transform;
@@ -129,7 +135,7 @@ body {
   transition-delay: 0s, 0s;
 }
 
-.twitter a:hover i {
+.social a:hover i {
   transform: scale(1.3);
 }
 

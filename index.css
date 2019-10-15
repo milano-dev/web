@@ -180,6 +180,11 @@ h2 {
   --note-type-color: var(--alert);
 }
 
+.note.alert {
+  border-color: var(--alert);
+  --note-type-color: var(--alert);
+}
+
 .note-type {
   color: var(--note-type-color);
   text-transform: uppercase;

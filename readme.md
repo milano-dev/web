@@ -1,3 +1,6 @@
+
+> This is the repo of the OLD landing page, the new repository is not available yet.
+
 # milano.dev
 
 temporary landing page
